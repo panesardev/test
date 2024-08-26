@@ -24,7 +24,7 @@ export function app(): express.Express {
   server.set('views', browserDistFolder);
 
   // Example Express Rest API endpoints
-  server.get('/api/**', ApiRouter);
+  server.get('/api', ApiRouter);
   // Serve static files from /browser
   server.get('**', express.static(browserDistFolder, {
     maxAge: '1y',
