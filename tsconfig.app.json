@@ -11,10 +11,10 @@
   "files": [
     "src/main.ts",
     "src/main.server.ts",
-    "server.ts"
+    "server.ts",
+    "src/server/router.ts"
   ],
   "include": [
-    "src/server/**/*.ts",
     "src/**/*.d.ts"
   ]
 }
