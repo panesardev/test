@@ -1,3 +1,2 @@
-const server = require('../dist/test/server/main');
-
-module.exports = server.app();
+export default import('../dist/test/server/server.mjs')
+  .then(module => module.app());
